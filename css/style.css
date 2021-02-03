@@ -825,26 +825,26 @@ li.order-online {
 .megamenu-big .menu-grid:hover {
   background: rgb(253 157 62 / 0.15);
 }
-.megamenu-big .pizza-menu {
+.megamenu-big .pepito-menu {
   width: 100px;
   float: left;
 }
-.megamenu-big .pizza-menu img {
+.megamenu-big .pepito-menu img {
   width: 100%;
 }
-.megamenu-big .pizza-det {
+.megamenu-big .pepito-det {
   width: calc(100% - 100px);
   float: left;
   padding-left: 10px;
 }
-.megamenu-big .pizza-det .Pizza-name-1 {
+.megamenu-big .pepito-det .pepito-name-1 {
   font-size: 16px;
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-.megamenu-big .pizza-det .pizza-price-1 {
+.megamenu-big .pepito-det .pepito-price-1 {
   font-size: 16px;
   color: #fd9d3e;
 }
@@ -933,10 +933,10 @@ _______________________________________________________*/
   left: 50%;
   transform: translate(-50%);
 }
-.owl-carousel .owl-item .pizza-img {
+.owl-carousel .owl-item .pepito-img {
   width: unset;
 }
-.owl-carousel .owl-item .pizza-it {
+.owl-carousel .owl-item .pepito-it {
   width: unset;
 }
 .banner .fade:not(.show) {
@@ -955,23 +955,23 @@ _______________________________________________________*/
 .banner .owl-item {
   overflow: hidden;
 }
-.pizza-it {
+.pepito-it {
   position: absolute;
 }
-.pizza-1 {
+.pepito-1 {
   bottom: 30px;
   right: -70px;
 }
-.pizza-2 {
+.pepito-2 {
   top: 20px;
   right: -120px;
   max-width: 350px;
 }
-.pizza-3 {
+.pepito-3 {
   top: 50px;
   left: 360px;
 }
-.pizza-4 {
+.pepito-4 {
   bottom: 80px;
   left: -20px;
 }
@@ -1012,64 +1012,64 @@ _______________________________________________________*/
 .banner-slide-2 .banner-box {
   padding-top: 120px;
 }
-.owl-carousel .owl-item .banner-slide-2 .pizza-img {
+.owl-carousel .owl-item .banner-slide-2 .pepito-img {
   margin: 0 auto;
 }
-.banner-slide-2 .pizza-it {
+.banner-slide-2 .pepito-it {
   position: absolute;
 }
-.banner-slide-2 .pizza-1 {
+.banner-slide-2 .pepito-1 {
   top: -70px;
   right: -10px;
 }
-.banner-slide-2 .pizza-2 {
+.banner-slide-2 .pepito-2 {
   top: -10px;
   left: 30px;
 }
-.banner-slide-2 .pizza-3 {
+.banner-slide-2 .pepito-3 {
   top: 70px;
   left: -20px;
 }
-.banner-slide-2 .pizza-4 {
+.banner-slide-2 .pepito-4 {
   bottom: -60px;
   right: 230px;
   left: unset;
 }
-.banner-slide-2 .pizza-5 {
+.banner-slide-2 .pepito-5 {
   bottom: -60px;
   right: 10px;
 }
-.banner-slide-2 .pizza-6 {
+.banner-slide-2 .pepito-6 {
   bottom: 60px;
   right: -20px;
 }
 
-.banner-slide-3 .pizza-it {
+.banner-slide-3 .pepito-it {
   position: absolute;
 }
-.banner-slide-3 .pizza-1 {
+.banner-slide-3 .pepito-1 {
   top: -40px;
   left: 140px;
 }
-.banner-slide-3 .pizza-2 {
+.banner-slide-3 .pepito-2 {
   bottom: -20px;
   left: 0px;
   top: unset;
 }
-.banner-slide-3 .pizza-3 {
+.banner-slide-3 .pepito-3 {
   top: -20px;
   right: -20px;
 }
-.banner-slide-3 .pizza-4 {
+.banner-slide-3 .pepito-4 {
   bottom: -10px;
   right: -30px;
   left: unset;
 }
-.banner-slide-3 .pizza-5 {
+.banner-slide-3 .pepito-5 {
   top: 70px;
   right: -30px;
 }
-.banner-slide-3 .pizza-6 {
+.banner-slide-3 .pepito-6 {
   top: 30px;
   left: 0px;
 }
@@ -1090,7 +1090,7 @@ _______________________________________________________*/
   animation-name: fadeInDown;
   animation-delay: 0.5s;
 }
-.active .pizza-img {
+.active .pepito-img {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -1098,7 +1098,7 @@ _______________________________________________________*/
   animation-name: fadeInUpBig;
   animation-delay: 0.5s;
 }
-.active .pizza-1 {
+.active .pepito-1 {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
@@ -1106,7 +1106,7 @@ _______________________________________________________*/
   animation-name: fadeInDown;
   animation-delay: 1.3s;
 }
-.active .pizza-2 {
+.active .pepito-2 {
   -webkit-animation-duration: 1.8s;
   animation-duration: 1.8s;
   -webkit-animation-fill-mode: both;
@@ -1114,7 +1114,7 @@ _______________________________________________________*/
   animation-name: fadeInDown;
   animation-delay: 1.8s;
 }
-.active .pizza-3 {
+.active .pepito-3 {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
@@ -1122,7 +1122,7 @@ _______________________________________________________*/
   animation-name: fadeInDown;
   animation-delay: 2s;
 }
-.active .pizza-4 {
+.active .pepito-4 {
   -webkit-animation-duration: 2.5s;
   animation-duration: 2.5s;
   -webkit-animation-fill-mode: both;
@@ -1147,7 +1147,7 @@ _______________________________________________________*/
   animation-name: rotateInUpLeft;
   animation-delay: 0.5s;
 }
-.active .banner-slide-2 .pizza-img {
+.active .banner-slide-2 .pepito-img {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -1155,7 +1155,7 @@ _______________________________________________________*/
   animation-name: fadeInRight;
   animation-delay: 1s;
 }
-.active .banner-slide-2 .pizza-1 {
+.active .banner-slide-2 .pepito-1 {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
@@ -1163,7 +1163,7 @@ _______________________________________________________*/
   animation-name: zoomIn;
   animation-delay: 1.3s;
 }
-.active .banner-slide-2 .pizza-2 {
+.active .banner-slide-2 .pepito-2 {
   -webkit-animation-duration: 1.8s;
   animation-duration: 1.8s;
   -webkit-animation-fill-mode: both;
@@ -1171,7 +1171,7 @@ _______________________________________________________*/
   animation-name: zoomIn;
   animation-delay: 1.8s;
 }
-.active .banner-slide-2 .pizza-3 {
+.active .banner-slide-2 .pepito-3 {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
@@ -1179,7 +1179,7 @@ _______________________________________________________*/
   animation-name: zoomIn;
   animation-delay: 2s;
 }
-.active .banner-slide-2 .pizza-4 {
+.active .banner-slide-2 .pepito-4 {
   -webkit-animation-duration: 2.5s;
   animation-duration: 2.5s;
   -webkit-animation-fill-mode: both;
@@ -1187,7 +1187,7 @@ _______________________________________________________*/
   animation-name: zoomIn;
   animation-delay: 2.5s;
 }
-.active .banner-slide-2 .pizza-5 {
+.active .banner-slide-2 .pepito-5 {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
@@ -1195,7 +1195,7 @@ _______________________________________________________*/
   animation-name: zoomIn;
   animation-delay: 1.5s;
 }
-.active .banner-slide-2 .pizza-6 {
+.active .banner-slide-2 .pepito-6 {
   -webkit-animation-duration: 1.8s;
   animation-duration: 1.8s;
   -webkit-animation-fill-mode: both;
@@ -1220,7 +1220,7 @@ _______________________________________________________*/
   animation-name: fadeInRight;
   animation-delay: 0.8s;
 }
-.active .banner-slide-3 .pizza-img {
+.active .banner-slide-3 .pepito-img {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -1228,7 +1228,7 @@ _______________________________________________________*/
   animation-name: fadeInLeft;
   animation-delay: 1s;
 }
-.active .banner-slide-3 .pizza-1 {
+.active .banner-slide-3 .pepito-1 {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
@@ -1236,7 +1236,7 @@ _______________________________________________________*/
   animation-name: bounceInDown;
   animation-delay: 1.3s;
 }
-.active .banner-slide-3 .pizza-2 {
+.active .banner-slide-3 .pepito-2 {
   -webkit-animation-duration: 1.8s;
   animation-duration: 1.8s;
   -webkit-animation-fill-mode: both;
@@ -1244,7 +1244,7 @@ _______________________________________________________*/
   animation-name: bounceInDown;
   animation-delay: 1.8s;
 }
-.active .banner-slide-3 .pizza-3 {
+.active .banner-slide-3 .pepito-3 {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
@@ -1252,7 +1252,7 @@ _______________________________________________________*/
   animation-name: bounceInDown;
   animation-delay: 2s;
 }
-.active .banner-slide-3 .pizza-4 {
+.active .banner-slide-3 .pepito-4 {
   -webkit-animation-duration: 2.5s;
   animation-duration: 2.5s;
   -webkit-animation-fill-mode: both;
@@ -1260,7 +1260,7 @@ _______________________________________________________*/
   animation-name: bounceInDown;
   animation-delay: 2.5s;
 }
-.active .banner-slide-3 .pizza-5 {
+.active .banner-slide-3 .pepito-5 {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
@@ -1268,7 +1268,7 @@ _______________________________________________________*/
   animation-name: bounceInDown;
   animation-delay: 1.5s;
 }
-.active .banner-slide-3 .pizza-6 {
+.active .banner-slide-3 .pepito-6 {
   -webkit-animation-duration: 1.8s;
   animation-duration: 1.8s;
   -webkit-animation-fill-mode: both;
@@ -1989,10 +1989,10 @@ button.news-more {
 /* Customer Block css End */
 
 /* About Block css start */
-.about-pizzon .max-w-390 {
+.about-ohpepitos.max-w-390 {
   max-width: 460px;
 }
-.about-pizzon .online-des {
+.about-ohpepitos.online-des {
   padding-top: 30px;
 }
 .about-more-z {
@@ -2859,7 +2859,7 @@ blockquote p {
   border-radius: 0;
   width: 100%;
 }
-.map-pizzon {
+.map-ohpepitos {
   width: 100%;
   height: 435px;
   display: block;
