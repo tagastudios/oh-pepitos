@@ -516,6 +516,7 @@ li.order-online {
   -moz-transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
+  margin-top: -50px;
 }
 .megamenu.full {
   left: 0;
