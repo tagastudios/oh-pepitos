@@ -74,4 +74,4 @@ python -m http.server 8000
 
 ## License
 
-All rights reserved - Oh Pepitos.
+Designed by [Taga Studios](https://tagastudios.com).
