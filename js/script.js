@@ -75,42 +75,6 @@ $(function() {
                 }
             });
             /* Responsive menu End */
-
-            /* Responsive cart Drop Down */
-
-            $(".cart-icon").on("click", function(){
-                $(".cart-dropdown, .cart-icon").toggleClass("active");
-            });
-
-            /* Responsive cart Drop Down End */
-
-            /* Product Detail choose size */
-
-            $('ul.Choose li').on("click", function(){
-                $('ul.Choose li').removeClass('current');
-                $(this).addClass('current');
-            })
-
-            $('ul.Size li').on("click", function(){
-                $('ul.Size li').removeClass('current');
-                $(this).addClass('current');
-            })
-
-            /* Product Detail choose size  End */
-
-            /* Product Detail description tab */
-
-            $('ul.panel-tab li').on("click", function(){
-                var tab_id = $(this).attr('data-tab');
-
-                $('ul.panel-tab li').removeClass('current');
-                $('.product-desc-tab').removeClass('current');
-
-                $(this).addClass('current');
-                $("#"+tab_id).addClass('current');
-            })
-
-            /* Product Detail description tab End */
         };
 
 

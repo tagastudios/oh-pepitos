@@ -14,13 +14,12 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-J8VBBNSF8T"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{GA_ID}}"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
-
-		gtag('config', 'G-J8VBBNSF8T');
+		gtag('config', '{{GA_ID}}');
 	</script>
 </head>
 
@@ -60,7 +59,6 @@
 														<div class="row">
 															<div class="col-xl-4 col-lg-4 col-md-4">
 																<div class="menu-grid">
-																	<!-- pepitotradicional.html -->
 																	<a href="#" class="menu-grid-center">
 																		<div class="pepito-menu">
 																			<img src="images/1.png" alt="pepitoguaro">
@@ -100,7 +98,6 @@
 															</div>
 															<div class="col-xl-4 col-lg-4 col-md-4">
 																<div class="menu-grid">
-																	<!-- pepitomushgreen.html -->
 																	<a href="#" class="menu-grid-center">
 																		<div class="pepito-menu">
 																			<img src="images/2-1.png" alt="pepito">
@@ -114,7 +111,6 @@
 															</div>
 															<div class="col-xl-4 col-lg-4 col-md-4">
 																<div class="menu-grid">
-																	<!-- pepitosprings.html -->
 																	<a href="#" class="menu-grid-center">
 																		<div class="pepito-menu">
 																			<img src="images/3.png" alt="pepito Gourmet">
@@ -128,7 +124,6 @@
 															</div>
 															<div class="col-xl-4 col-lg-4 col-md-4">
 																<div class="menu-grid">
-																	<!-- pepitoonion.html -->
 																	<a href="#" class="menu-grid-center">
 																		<div class="pepito-menu">
 																			<img src="images/4.png" alt="pepitoencebollado">
@@ -144,8 +139,7 @@
 													</div>
 													<div class="col-xl-4 col-lg-4 col-md-4">
 														<div class="menu-grid">
-															<!-- drinks.html -->
-															<a href="#" class="menu-grid-center">
+																	<a href="#" class="menu-grid-center">
 																<div class="pepito-menu">
 																	<img src="images/0.png" alt="pepito">
 																</div>
@@ -197,13 +191,13 @@
 					<div class=" header-right-link">
 						<ul>
 							<li class="call-icon">
-								<a href="tel:+15615308018">
+								<a href="tel:{{CONTACT_PHONE}}">
 									<span class="icon"></span>
-									<div class="link-text">+1(561)530-8018</div>
+									<div class="link-text">{{CONTACT_PHONE}}</div>
 								</a>
 							</li>
 							<li class="order-online">
-								<a href="https://wa.me/+15615308018/?text=Hola! Me podrían enviar el menú? / Hi! Can you send me the menu?"
+								<a href="https://wa.me/{{WHATSAPP_NUMBER}}/?text=Hola! Me podrían enviar el menú? / Hi! Can you send me the menu?"
 									target="_blank" class="btn btn-green">Order Whatsaap</a>
 							</li>
 							<li class="side-toggle">
@@ -248,10 +242,10 @@
 					<div class="col-xl-4 col-lg-4 col-md-4 footer-box">
 						<div class="footer-logo">
 							<img src="images/footer-logo.png" alt="fooret-logo">
-							<p class="footer-des">13160 Heather Moss Dr, Orlando, Florida 32837</p>
+							<p class="footer-des">{{CONTACT_ADDRESS}}</p>
 							<ul>
-								<li>phone - <a href="tel:+15615308018">+1(561)530-8018</a></li>
-								<li>email - <a href="mailto:ohpepitos@gmail.com">ohpepitos@gmail.com</a></li>
+								<li>phone - <a href="tel:{{CONTACT_PHONE}}">{{CONTACT_PHONE}}</a></li>
+								<li>email - <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></li>
 							</ul>
 						</div>
 					</div>

@@ -1,0 +1,10 @@
+{
+  "name": "oh-pepitos",
+  "description": "Promotional website for Oh Pepitos - Venezuelan pepito restaurant in Orlando, FL",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "preview": "npx serve dist"
+  }
+}

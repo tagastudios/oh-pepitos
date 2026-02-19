@@ -1,0 +1,9 @@
+# Environment variables (contains sensitive data)
+.env
+
+# Build output
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
