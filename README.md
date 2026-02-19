@@ -72,18 +72,6 @@ npx serve .
 python -m http.server 8000
 ```
 
-## Deployment
-
-Deploy the `dist/` folder (after running `npm run build`) to any static hosting service:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Firebase Hosting
-- Any web server
-
-For GitHub Pages, you can set up a GitHub Action to run the build and deploy from `dist/`.
-
 ## License
 
 All rights reserved - Oh Pepitos.
